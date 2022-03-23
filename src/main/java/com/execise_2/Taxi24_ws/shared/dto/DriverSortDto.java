@@ -1,7 +1,10 @@
 package com.execise_2.Taxi24_ws.shared.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 public class DriverSortDto {
 
+    @JsonIgnore
     private long id;
     private String driverId;
     private String fullName;
